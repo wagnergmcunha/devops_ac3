@@ -1,1 +1,1 @@
-web: python primos.py
+web: python ac3.py
