@@ -1,0 +1,67 @@
+2020-10-09T23:06:24.223698+00:00 app[api]: Initial release by user wagner.cunha@aluno.faculdadeimpacta.com.br
+2020-10-09T23:06:24.223698+00:00 app[api]: Release v1 created by user wagner.cunha@aluno.faculdadeimpacta.com.br
+2020-10-09T23:06:24.400392+00:00 app[api]: Release v2 created by user wagner.cunha@aluno.faculdadeimpacta.com.br
+2020-10-09T23:06:24.400392+00:00 app[api]: Enable Logplex by user wagner.cunha@aluno.faculdadeimpacta.com.br
+2020-10-09T23:06:36.000000+00:00 app[api]: Build started by user wagner.cunha@aluno.faculdadeimpacta.com.br
+2020-10-09T23:07:02.264093+00:00 app[api]: Deploy 0f5fea99 by user wagner.cunha@aluno.faculdadeimpacta.com.br
+2020-10-09T23:07:02.264093+00:00 app[api]: Release v3 created by user wagner.cunha@aluno.faculdadeimpacta.com.br
+2020-10-09T23:07:02.284678+00:00 app[api]: Scaled to web@1:Free by user wagner.cunha@aluno.faculdadeimpacta.com.br
+2020-10-09T23:07:06.078130+00:00 heroku[web.1]: Starting process with command `python ac3.py`
+2020-10-09T23:07:09.290824+00:00 app[web.1]: File "ac3.py", line 8
+2020-10-09T23:07:09.290847+00:00 app[web.1]: def nao_entre_em_panico()
+2020-10-09T23:07:09.290980+00:00 app[web.1]: ^
+2020-10-09T23:07:09.291038+00:00 app[web.1]: SyntaxError: invalid syntax
+2020-10-09T23:07:09.352376+00:00 heroku[web.1]: Process exited with status 1
+2020-10-09T23:07:09.403259+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-09T23:07:09.405763+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-09T23:07:11.000000+00:00 app[api]: Build succeeded
+2020-10-09T23:07:12.260859+00:00 heroku[web.1]: Starting process with command `python ac3.py`
+2020-10-09T23:07:14.031967+00:00 app[web.1]: File "ac3.py", line 8
+2020-10-09T23:07:14.031981+00:00 app[web.1]: def nao_entre_em_panico()
+2020-10-09T23:07:14.032044+00:00 app[web.1]: ^
+2020-10-09T23:07:14.032103+00:00 app[web.1]: SyntaxError: invalid syntax
+2020-10-09T23:07:14.083763+00:00 heroku[web.1]: Process exited with status 1
+2020-10-09T23:07:14.124242+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-09T23:07:28.006162+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=devopsac3wagner.herokuapp.com request_id=569520dd-49c7-4cd1-bc1b-9045122e4ce6 fwd="177.102.197.198" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-09T23:07:29.810099+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=devopsac3wagner.herokuapp.com request_id=3032c34a-e7e7-47e2-bdc4-2337fb76a66a fwd="177.102.197.198" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-09T23:22:14.210212+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=devopsac3wagner.herokuapp.com request_id=9f51bfbd-db10-460a-b61b-3d8f9293aa11 fwd="177.102.197.198" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-09T23:22:15.155799+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=devopsac3wagner.herokuapp.com request_id=9f9f7595-6df9-4089-909c-100be348fe1e fwd="177.102.197.198" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-09T23:32:01.000000+00:00 app[api]: Build started by user wagner.cunha@aluno.faculdadeimpacta.com.br
+2020-10-09T23:32:24.044514+00:00 app[api]: Release v4 created by user wagner.cunha@aluno.faculdadeimpacta.com.br
+2020-10-09T23:32:24.044514+00:00 app[api]: Deploy 6ab0117c by user wagner.cunha@aluno.faculdadeimpacta.com.br
+2020-10-09T23:32:24.558764+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-09T23:32:27.625067+00:00 heroku[web.1]: Starting process with command `python ac3.py`
+2020-10-09T23:32:29.832653+00:00 app[web.1]: File "ac3.py", line 9
+2020-10-09T23:32:29.832662+00:00 app[web.1]: e = []
+2020-10-09T23:32:29.832667+00:00 app[web.1]: ^
+2020-10-09T23:32:29.832667+00:00 app[web.1]: SyntaxError: invalid syntax
+2020-10-09T23:32:29.882516+00:00 heroku[web.1]: Process exited with status 1
+2020-10-09T23:32:29.930515+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-09T23:32:29.933284+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-09T23:32:32.000000+00:00 app[api]: Build succeeded
+2020-10-09T23:32:34.314347+00:00 heroku[web.1]: Starting process with command `python ac3.py`
+2020-10-09T23:32:36.839717+00:00 app[web.1]: File "ac3.py", line 9
+2020-10-09T23:32:36.839774+00:00 app[web.1]: e = []
+2020-10-09T23:32:36.839782+00:00 app[web.1]: ^
+2020-10-09T23:32:36.839782+00:00 app[web.1]: SyntaxError: invalid syntax
+2020-10-09T23:32:36.884521+00:00 heroku[web.1]: Process exited with status 1
+2020-10-09T23:32:36.928255+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-09T23:33:06.653867+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=devopsac3wagner.herokuapp.com request_id=620212fd-98b2-4549-9e99-042b62f74ad2 fwd="177.102.197.198" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-09T23:33:08.137256+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=devopsac3wagner.herokuapp.com request_id=50fee1b0-7896-43b3-a7a4-31053ad32378 fwd="177.102.197.198" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-09T23:36:23.000000+00:00 app[api]: Build started by user wagner.cunha@aluno.faculdadeimpacta.com.br
+2020-10-09T23:36:46.615169+00:00 app[api]: Deploy b122f231 by user wagner.cunha@aluno.faculdadeimpacta.com.br
+2020-10-09T23:36:46.615169+00:00 app[api]: Release v5 created by user wagner.cunha@aluno.faculdadeimpacta.com.br
+2020-10-09T23:36:47.505124+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-09T23:36:51.046897+00:00 heroku[web.1]: Starting process with command `python ac3.py`
+2020-10-09T23:36:54.352782+00:00 app[web.1]: * Serving Flask app "ac3" (lazy loading)
+2020-10-09T23:36:54.352801+00:00 app[web.1]: * Environment: production
+2020-10-09T23:36:54.352851+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-09T23:36:54.352905+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-09T23:36:54.352934+00:00 app[web.1]: * Debug mode: off
+2020-10-09T23:36:54.376132+00:00 app[web.1]: * Running on http://0.0.0.0:20228/ (Press CTRL+C to quit)
+2020-10-09T23:36:55.506541+00:00 heroku[web.1]: State changed from starting to up
+2020-10-09T23:36:57.000000+00:00 app[api]: Build succeeded
+2020-10-09T23:37:16.027124+00:00 heroku[router]: at=info method=GET path="/" host=devopsac3wagner.herokuapp.com request_id=67f35e6f-d527-407b-84f3-94c9608caaa0 fwd="177.102.197.198" dyno=web.1 connect=0ms service=11ms status=200 bytes=566 protocol=https
+2020-10-09T23:37:16.027814+00:00 app[web.1]: 10.5.239.252 - - [09/Oct/2020 23:37:16] "GET / HTTP/1.1" 200 -
+2020-10-09T23:37:16.684578+00:00 app[web.1]: 10.5.239.252 - - [09/Oct/2020 23:37:16] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-09T23:37:16.685660+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=devopsac3wagner.herokuapp.com request_id=bd1f3117-377e-43e4-99e0-043a4413eea9 fwd="177.102.197.198" dyno=web.1 connect=0ms service=30ms status=404 bytes=379 protocol=https
